@@ -37,7 +37,3 @@ output "IP Address" {
 output "container_name" {
   value = "${docker_container.container_id.name}"
 }
-
-output "container_checksum" {
-  value = "${docker_container/container_id.image}"
-}
